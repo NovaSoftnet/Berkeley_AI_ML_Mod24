@@ -8,7 +8,7 @@
 
 The data belongs AC4MEX INC, a large IT firm that recently merged with one of their competitors, 
 each original firm is now an independent Division of the new corporative group.
-Even when some of their productos overlap, they keep complememtary product portfolios, 
+Even when some of their productos overlap, they keep complementary product portfolios, 
 and look forward to approach the combined customer base with product bundles from both division´s catalog. 
 The Data was obtained from ACMEX INC Anual Bookings report. 
 It is synthetic in nature and anonymized to obfuscate identifiable information.
