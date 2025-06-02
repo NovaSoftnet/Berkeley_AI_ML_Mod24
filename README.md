@@ -31,7 +31,7 @@ Imbalanced datasets impact the performance of the machine learning models and th
 <pre>
 Data Set Characteristics:  Multivariate
 Area: Finance Department
-Description:Single Sales order including products from the catalog
+Description:Single Sales order including products from the catalog of AC4MEX INC´s  two main divisions.
 Attribute Characteristics: Categorical and Real
 Missing Values? None
 </pre>
