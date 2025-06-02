@@ -53,6 +53,7 @@ Customer_Hash : Customer´s unique ID
 1) - Clone the GitHub repository
 
 ├── capstone_EDA_arnoguer_v2.ipynb
+├──capstone_arnoguer_v2.ipynb
 ├── data
 │    ├── Bookings_24_25_v2.cvs
 
