@@ -18,7 +18,7 @@ It is synthetic in nature and anonymized to obfuscate identifiable information.
 
 ##### What is Data Driven go to Market strategy?
 
-Out there every customer has plenty of options for every acquisition , we need to streght our customer´s satisfaction and loyalty. At the same time we need to reduce the probability that competitors can take over our clients. Using Data Driven go to Market strategy, we will create product bundles with more attractive prices and promote synergy among different product business units to reduce production and marketing costs.
+Out there every customer has plenty of options for every acquisition , we need to strenght our customer´s satisfaction and loyalty. At the same time we need to reduce the probability that competitors can take over our clients. Using Data Driven go to Market strategy, we will create product bundles with more attractive prices and promote synergy among different product business units to reduce production and marketing costs.
 
 ##### Why a Classifier Ensemble?
 
