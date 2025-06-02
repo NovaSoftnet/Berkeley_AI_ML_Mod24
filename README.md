@@ -60,18 +60,18 @@ Customer_Hash : Customer´s unique ID
 ├── data
 │    ├── Bookings_24_25_v2.cvs
 
-2)  -Please run  the notebook **capstone_full_arnoguer_v1.csv** for a full deployment
-
-    or
-    
-3a) -Please run first **capstone_EDA_arnoguer_v2.ipynb**,  to execute the Exploration and Data Analisys to cleand and prepare the Data Set
+2a) -Please run first **capstone_EDA_arnoguer_v2.ipynb**,  to execute the Exploration and Data Analisys to cleand and prepare the Data Set
     At the end of the this step, and additional File (Bookings_for_Modeling.csv) will show under the Data directory.
 
 ├── data
 │    ├── Bookings_for_Modeling.cvs
 
  
-3b)  -Please then the second notebook **capstone_modeling_arnoguer__v2.csv** to execute the creation, tuning and deployment of the modeling phase.
+2b)  -Please then the second notebook **capstone_modeling_arnoguer__v2.csv** to execute the creation, tuning and deployment of the modeling phase.
+
+
+Note: A consolidated version of both phases is included as **capstone_full_arnoguer_v1.csv** for ilustrative purposes,
+to review it please run  the notebook **capstone_full_arnoguer_v1.csv** for a full deployment
 
 </pre>
 
