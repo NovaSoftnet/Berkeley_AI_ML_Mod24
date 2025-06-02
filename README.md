@@ -6,7 +6,7 @@
 
 ## Data Set Information:
 
-The data belongs AC4MEX INC, a large IT firm that recently merged with one of their competitor, 
+The data belongs AC4MEX INC, a large IT firm that recently merged with one of their competitors, 
 each original firm is now an independent Division of the new corporative group.
 Even when some of their productos overlap, they keep complememtary product portfolios, 
 and look forward to approach the combined customer base with product bundles from both division´s catalog. 
