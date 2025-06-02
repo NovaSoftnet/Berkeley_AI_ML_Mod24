@@ -63,7 +63,7 @@ Customer_Hash : Customer´s unique ID
 │    ├── Bookings_for_Modeling.cvs
 
  
-3)  -Please then the second notebook capstone_arnoguer_v1.csv
+3)  -Please then the second notebook capstone_arnoguer_v2.csv
 
 </pre>
 
