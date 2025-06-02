@@ -54,19 +54,24 @@ Customer_Hash : Customer´s unique ID
 <pre>
 1) - Clone the GitHub repository
 
+├──capstone_full_arnoguer_v1.csv
 ├── capstone_EDA_arnoguer_v2.ipynb
-├──capstone_arnoguer_v2.ipynb
+├──capstone_modeling_arnoguer_v2.ipynb
 ├── data
 │    ├── Bookings_24_25_v2.cvs
 
-2)  -Please run  first the notebook capstone_EDA_arnoguer_v2.ipynb
-    - At the end of the this step, there will be and additional CSV File (Bookings_for_Modeling.csv) under the Data directory.
+2)  -Please run  the notebook **capstone_full_arnoguer_v1.csv** for a full deployment
+
+    or
+    
+3a) -Please run first **capstone_EDA_arnoguer_v2.ipynb**,  to execute the Exploration and Data Analisys to cleand and prepare the Data Set
+    At the end of the this step, and additional File (Bookings_for_Modeling.csv) will show under the Data directory.
 
 ├── data
 │    ├── Bookings_for_Modeling.cvs
 
  
-3)  -Please then the second notebook capstone_arnoguer_v2.csv
+3b)  -Please then the second notebook **capstone_modeling_arnoguer__v2.csv** to execute the creation, tuning and deployment of the modeling phase.
 
 </pre>
 
