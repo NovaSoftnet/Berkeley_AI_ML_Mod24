@@ -22,8 +22,10 @@ Out there every customer has plenty of options for every aquisition , we need to
 
 ##### Why a Classifier Ensemble?
 
-A classifier ensemble combines multiple classifiers to enhance classification accuracy and generalization. It's a technique where diverse individual classifiers are trained, and their predictions are combined using various methods like voting or averaging
+A classifier ensemble combines multiple classifiers to enhance classification accuracy and generalization. It's a technique where diverse individual classifiers are trained, and their predictions are combined using various methods like voting or averaging.
 
+##### Why Oversampling ?
+Imbalanced datasets impact the performance of the machine learning models and the Synthetic Minority Over-sampling Technique (SMOTE) addresses the class imbalance problem by generating synthetic samples for the minority class.
 
 ## Data Understanding
 <pre>
