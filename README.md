@@ -4,25 +4,30 @@
     </center>
 </center>
 
+### Predictive Go to Market Strategy Using Machine Learning
+
 ## Data Set Information:
 
 The data belongs AC4MEX INC, a large IT firm that recently merged with one of their competitors, 
 each original firm is now an independent Division of the new corporative group.
-Even when some of their productos overlap, they keep complememtary product portfolios, 
-and look forward to approach the combined customer base with product bundles from both division´s catalog. 
-The Data was obtained from ACMEX INC Anual Bookings report. 
+Even when some of their products overlap, they keep complementary product portfolios, 
+and look forward to approaching the combined customer base with product bundles from both division´s catalog. 
+The Data was obtained from ACMEX INC Annual Bookings report. 
 It is synthetic in nature and anonymized to obfuscate identifiable information.
+
 
 
 #### Business Understanding
 
 ##### What is Data Driven go to Market strategy?
 
-Out there every customer has plenty of options for every aquisition , we need to streght our customer´s satisfaction and loyalty. At the same time we need to reduce the probability that competitors can take over our clients. Using Data Driven go to Market strategy, we will create product bundles with more attractive prices and promote synergy among different product business units to reduce production and marketing costs.
+Out there every customer has plenty of options for every acquisition , we need to strength our customer´s satisfaction and loyalty. At the same time, we need to reduce the probability that competitors can take over our clients. Using Data Driven go to Market strategy, we will create product bundles with more attractive prices and promote synergy among different product business units to reduce production and marketing costs.
+
 
 ##### Why a Classifier Ensemble?
 
 A classifier ensemble combines multiple classifiers to enhance classification accuracy and generalization. It's a technique where diverse individual classifiers are trained, and their predictions are combined using various methods like voting or averaging
+
 
 
 ## Data Understanding
@@ -67,7 +72,8 @@ Customer_Hash : Customer´s unique ID
 
 </pre>
 
-## Data Preparation and Visulalization
+## Data Preparation and Visualization
+
 <pre>
 Code Used: Python
 Packages: Pandas, Numpy, Matplotlib
@@ -81,9 +87,9 @@ Packages: Pandas, Nunmpy , Sklearn:model_selection, metrics , preprocessing ,com
 
 ## Process Summary
 **By performing different ML models, we aimed to improve at predictively optimizing following**
-- operational efficiency
-- inventory optimization
-- Reduce MArketing Costs
+- Operational efficiency
+- Inventory optimization
+- Reduce Marketing Costs
 - Improve customers satisfaction
 - Create synergy between divisions
 
