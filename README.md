@@ -54,7 +54,7 @@ Customer_Hash : Customer´s unique ID
 <pre>
 1) - Clone the GitHub repository
 
-├──capstone_full_arnoguer_v1.csv
+├──capstone_full_arnoguer_v1.ipynb
 ├── capstone_EDA_arnoguer_v2.ipynb
 ├──capstone_modeling_arnoguer_v2.ipynb
 ├── data
