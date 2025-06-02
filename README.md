@@ -8,9 +8,9 @@
 
 The data belongs AC4MEX INC, a large IT firm that recently merged with one of their competitors, 
 each original firm is now an independent Division of the new corporative group.
-Even when some of their products overlap, they keep complementary product portfolios, 
+Even when some of their productos overlap, they keep complememtary product portfolios, 
 and look forward to approach the combined customer base with product bundles from both division´s catalog. 
-The Data was obtained from ACMEX INC Annual Bookings report. 
+The Data was obtained from ACMEX INC Anual Bookings report. 
 It is synthetic in nature and anonymized to obfuscate identifiable information.
 
 
@@ -18,20 +18,18 @@ It is synthetic in nature and anonymized to obfuscate identifiable information.
 
 ##### What is Data Driven go to Market strategy?
 
-Out there every customer has plenty of options for every acquisition , we need to strength our customer´s satisfaction and loyalty. At the same time we need to reduce the probability that competitors can take over our clients. Using Data Driven go to Market strategy, we will create product bundles with more attractive prices and promote synergy among different product business units to reduce production and marketing costs.
+Out there every customer has plenty of options for every aquisition , we need to streght our customer´s satisfaction and loyalty. At the same time we need to reduce the probability that competitors can take over our clients. Using Data Driven go to Market strategy, we will create product bundles with more attractive prices and promote synergy among different product business units to reduce production and marketing costs.
 
 ##### Why a Classifier Ensemble?
 
-A classifier ensemble combines multiple classifiers to enhance classification accuracy and generalization. It's a technique where diverse individual classifiers are trained, and their predictions are combined using various methods like voting or averaging.
+A classifier ensemble combines multiple classifiers to enhance classification accuracy and generalization. It's a technique where diverse individual classifiers are trained, and their predictions are combined using various methods like voting or averaging
 
-##### Why Oversampling ?
-Imbalanced datasets impact the performance of the machine learning models and the Synthetic Minority Over-sampling Technique (SMOTE) addresses the class imbalance problem by generating synthetic samples for the minority class.
 
 ## Data Understanding
 <pre>
 Data Set Characteristics:  Multivariate
 Area: Finance Department
-Description:Single Sales order including products from the catalog of AC4MEX INC´s  two main divisions.
+Description:Single Sales order including products from the catalog
 Attribute Characteristics: Categorical and Real
 Missing Values? None
 </pre>
@@ -54,24 +52,18 @@ Customer_Hash : Customer´s unique ID
 <pre>
 1) - Clone the GitHub repository
 
-├──capstone_full_arnoguer_v1.ipynb
 ├── capstone_EDA_arnoguer_v2.ipynb
-├──capstone_modeling_arnoguer_v2.ipynb
 ├── data
 │    ├── Bookings_24_25_v2.cvs
 
-2a) -Please run first **capstone_EDA_arnoguer_v2.ipynb**,  to execute the Exploration and Data Analisys to cleand and prepare the Data Set
-    At the end of the this step, and additional File (Bookings_for_Modeling.csv) will show under the Data directory.
+2)  -Please run  first the notebook capstone_EDA_arnoguer_v2.ipynb
+    - At the end of the this step, there will be and additional CSV File (Bookings_for_Modeling.csv) under the Data directory.
 
 ├── data
 │    ├── Bookings_for_Modeling.cvs
 
  
-2b)  -Please then the second notebook **capstone_modeling_arnoguer__v2.csv** to execute the creation, tuning and deployment of the modeling phase.
-
-
-Note: A consolidated version of both phases is included as **capstone_full_arnoguer_v1.csv** for ilustrative purposes,
-to review it please run  the notebook **capstone_full_arnoguer_v1.csv** for a full deployment
+3)  -Please then the second notebook capstone_arnoguer_v1.csv
 
 </pre>
 
@@ -89,11 +81,11 @@ Packages: Pandas, Nunmpy , Sklearn:model_selection, metrics , preprocessing ,com
 
 ## Process Summary
 **By performing different ML models, we aimed to improve at predictively optimizing following**
-- Operational efficiency
-- Inventory optimization
-- Reduce Marketing Costs
+- operational efficiency
+- inventory optimization
+- Reduce MArketing Costs
 - Improve customers satisfaction
-- Create synergy between product divisions
+- Create synergy between divisions
 
 
 

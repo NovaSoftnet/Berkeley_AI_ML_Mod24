@@ -15952,7 +15952,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [113]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#All Base Models scoring after tuning with Grid Search using SMOTE to resample the inbalaned DataSet</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#All Base Models scoring after tuning with Grid Search using SMOTE to resample the imbalaned DataSet</span>
 <span class="n">df_Models</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s1">'Model'</span><span class="p">:[</span><span class="s1">'LogisticRegression'</span><span class="p">,</span><span class="s1">'K-NearestNeighbors'</span><span class="p">,</span><span class="s1">'DecisionTree'</span><span class="p">,</span><span class="s1">'SupportVectorMachine'</span><span class="p">],</span>
     <span class="s1">'F1'</span><span class="p">:[</span><span class="n">logRegF1_smote</span><span class="p">,</span><span class="n">knnClsF1_smote</span><span class="p">,</span><span class="n">decTreF1_smote</span><span class="p">,</span><span class="n">svmClsF1_smote</span><span class="p">],</span>
@@ -16091,8 +16091,8 @@ the F1 performance increased significatively for all four models
 SupportVectorMachine reported 0.695  F1 score, 	while  DecisionTrees reported 0.690	F1 score, which are superior from the
 Accuracy figures reported in all previous cases.</p>
 </li>
-<li><p>Given the inbalanced distribution from our Target Varibled, our candidate models to execute the deployment will be
-SupportVectorMachine and in second place DecisionTrees after resambling the received Data Set using SMOTE.
+<li><p>Given the imbalanced distribution from our Target Variable, our candidate models to execute the deployment will be
+SupportVectorMachine and in second place DecisionTrees after resampling the received Data Set using SMOTE.
 Although both models require significative compute resources, the execution frequency of "Data Driven Go to Market Strategy"
 tool is not high, so this is not a concern for this specific scenario.</p>
 </li>
@@ -16140,7 +16140,7 @@ tool is not high, so this is not a concern for this specific scenario.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Resampling methods increased marginaly the accuracy, so in this escenario SMOT is not a final solution to the imbalance problem. It's important to understand that imbalanced data is a problem only if the minority class in the training set is not representative enough and/or the features are not good enough indicators for the label. The ideal scenario is to solve these two problems first, then the model will perform as expected.</p>
+<p>Resampling methods increased marginally the accuracy, so in this scenario SMOT is not a final solution to the imbalance problem. It's important to understand that imbalanced data is a problem only if the minority class in the training set is not representative enough and/or the features are not good enough indicators for the label. The ideal scenario is to solve these two problems first, then the model will perform as expected.</p>
 </div>
 </div>
 </div>
