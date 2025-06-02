@@ -89,11 +89,11 @@ Packages: Pandas, Nunmpy , Sklearn:model_selection, metrics , preprocessing ,com
 
 ## Process Summary
 **By performing different ML models, we aimed to improve at predictively optimizing following**
-- operational efficiency
-- inventory optimization
-- Reduce MArketing Costs
+- Operational efficiency
+- Inventory optimization
+- Reduce Marketing Costs
 - Improve customers satisfaction
-- Create synergy between divisions
+- Create synergy between product divisions
 
 
 
